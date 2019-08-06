@@ -5,10 +5,13 @@ date = "2017-04-24T18:36:24+02:00"
 
 +++
 
-PhenoCopter is designed to process UAV dataset for scientific research.
+
+Documentation is under development. See the [presentation](PhenoCopter-Introduction.pdf) about a short introduction of the major features in PhenoCopter.
+
+PhenoCopter is designed to process UAV dataset for scientific research. 
 
 ## Features
-* [Manage your flights](help/meta)
+* Manage your flights
 * Process UAV flights with a simple workflow
 * Visualize the flight path and raw images
 * Add GCPs to images through web interface
@@ -17,3 +20,4 @@ PhenoCopter is designed to process UAV dataset for scientific research.
 * Segement mosaics into plots
 * Label images for machine learning
 * Extract phenotypic values
+
