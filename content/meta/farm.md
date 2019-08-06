@@ -1,8 +1,9 @@
-﻿---
+---
 title: "Farm"
 author: Bangyou Zheng
 date: '2019-06-10'
 slug: farm
+weight: 1
 tags:
   - farm
 output:
