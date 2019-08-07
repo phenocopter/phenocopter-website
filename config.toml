@@ -1,6 +1,5 @@
-#baseurl = "C:/Users/zhe00a/Documents/Working/04-Software/044-WebPhenoCopter/PhenoCopterCS/Phenocopter/wwwroot/help"
-#baseurl = "https://phenocopter.csiro.au/help"
-baseurl = "https://localhost:44308/help"
+baseurl = "https://phenocopter.csiro.au/help"
+#baseurl = "https://localhost:44308/help"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
@@ -8,7 +7,7 @@ title = "PhenoCopter Documentation"
 theme = "hugo-theme-docdock"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 uglyurls = true
-publishDir = "../PhenoCopterCS/Phenocopter/wwwroot/help"
+publishDir = "public"
 [params]
 
 [outputs]
