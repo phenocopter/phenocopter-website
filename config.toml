@@ -1,4 +1,4 @@
-baseurl = "https://phenocopter.csiro.au/help"
+baseurl = "https://phenocopter.netlify.com/"
 #baseurl = "https://localhost:44308/help"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
