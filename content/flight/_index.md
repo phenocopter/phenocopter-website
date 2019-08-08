@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis"
+title: "Data Analysis for a flight"
 author: Bangyou Zheng
 date: '2019-06-15'
 slug: flight
@@ -12,4 +12,5 @@ output:
 ---
 
 
-Flight...
+* Add GCPs
+* Stitching images
