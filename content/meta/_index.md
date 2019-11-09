@@ -1,5 +1,5 @@
 ---
-title: "Flight management"
+title: "Meta management"
 author: Bangyou Zheng
 date: '2019-06-15'
 slug: meta
