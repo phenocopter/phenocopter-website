@@ -6,8 +6,6 @@ date = "2017-04-24T18:36:24+02:00"
 +++
 
 
-Documentation is under development. See the [presentation](PhenoCopter-Introduction.pdf) about a short introduction of the major features in PhenoCopter.
-
 PhenoCopter is a cloud based platform to process images captured by Unmanned Aerial Vehicle (UAV) in plant breeding and argonomy. 
 
 ## Features
@@ -20,4 +18,6 @@ PhenoCopter is a cloud based platform to process images captured by Unmanned Aer
 * Segement mosaics into plots
 * Label images for machine learning
 * Extract phenotypic values
+
+See the [presentation](PhenoCopter-Introduction.pdf) about a short introduction of the major features in PhenoCopter.
 

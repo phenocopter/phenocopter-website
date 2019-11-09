@@ -17,5 +17,3 @@ type a `field name` and  `note`, finally click the `Submit` button.
 
 You can type to search the farm name in the list.
 
-
-<img src="new-field.gif" width="50%">
