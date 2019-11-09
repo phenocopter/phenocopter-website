@@ -15,7 +15,13 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "Home"
-identifier = "hugodoc"
-url = "../"
-weight = 2
+identifier = "home"
+url = "https://phenocopter.csiro.au"
+weight = 3
 
+
+[[menu.shortcuts]]
+name = "Github Repo"
+identifier = "hugodoc"
+url = "https://github.com/phenocopter/PhenoCopterDoc"
+weight = 2
