@@ -21,3 +21,8 @@ date = "2017-04-24T18:36:24+02:00"
 
 See the [presentation](PhenoCopter-Introduction.pdf) about a short introduction of the major features in PhenoCopter.
 
+## Supported cameras
+
+* Visual
+* Rededge
+* Thermal
