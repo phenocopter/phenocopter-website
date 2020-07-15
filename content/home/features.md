@@ -8,7 +8,7 @@ weight = 20  # Order that this section will appear.
   icon = "info"
   icon_pack = "fas"
   name = "Manage flights"
-  description = "UAV (Unmanned Aerial Vehicle) flights organise using farm and field, store related drone and camera information, and share with other users with read only or write permissions."
+  description = """[Meta data](/docs/introduction/meta/) of UAV (Unmanned Aerial Vehicle) flights organize using farm and field, store related drone and camera information, and share with other users with read only or write permissions."""
   
 [[feature]]
   icon = "sort-amount-down-alt"
