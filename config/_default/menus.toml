@@ -1,7 +1,13 @@
+
+[[main]]
+  name = "Features"
+  url = "#features"
+  weight = 1
+
 [[main]]
   name = "Docs"
   url = "docs/"
-  weight = 1
+  weight = 2
 
 [[main]]
   name = "Demo"
