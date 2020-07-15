@@ -1,0 +1,30 @@
+[[main]]
+  name = "Docs"
+  url = "docs/"
+  weight = 1
+
+[[main]]
+  name = "Demo"
+  url = "https://phenocopter.csiro.au"
+  weight = 10
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 60
+
+
+# Documentation
+
+[[docs]]
+  name = "Getting started"
+  identifier = "started"
+  weight = 10
+  url = ""
+
+
+[[docs]]
+  name = "Deployment"
+  identifier = "deployment"
+  weight = 20
+  url = ""
