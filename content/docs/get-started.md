@@ -1,10 +1,10 @@
 ---
 title: Use the demo site
-date: 2016-04-20
+date: 2020-07-15
 toc: true
 type: docs
 weight: 25
-slug: register
+slug: demo-site
 menu:
   docs:
     parent: started

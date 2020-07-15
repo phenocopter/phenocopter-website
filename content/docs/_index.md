@@ -1,6 +1,6 @@
 ---
-title: Get started
-date: 2020-07-01
+title: Introduction
+date: 2020-07-15
 toc: true
 type: "docs"
 ---

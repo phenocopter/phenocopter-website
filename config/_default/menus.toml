@@ -22,6 +22,13 @@
 
 # Documentation
 
+
+[[docs]]
+  name = "Introduction"
+  identifier = "introduction"
+  weight = 1
+  url = "/docs/"
+
 [[docs]]
   name = "Getting started"
   identifier = "started"

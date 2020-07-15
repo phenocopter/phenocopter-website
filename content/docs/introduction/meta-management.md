@@ -1,7 +1,7 @@
 ---
 title: "Meta management"
 author: Bangyou Zheng
-date: '2019-06-15'
+date: 2020-07-15
 slug: meta
 weight: 20
 tags:
@@ -9,8 +9,8 @@ tags:
 toc: true
 menu:
   docs:
-    parent: started
-    weight: 25
+    parent: introduction
+    weight: 2
 ---
 
 
