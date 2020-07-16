@@ -12,4 +12,4 @@ menu:
 ---
 
 
-For a starting point, you can use the [demo website](https://phenocopter.csrio.au) to process your images. Ask system administrator to invite you to join.  
+For a starting point, you can use the [demo website](https://phenocopter.csiro.au/) to process your images. Ask system administrator to invite you to join.  
