@@ -1,15 +1,13 @@
 ---
-title: Workflow with your control
-date: 2020-07-15
+title: Processing flight in a workflow
+date: 2020-07-16
 toc: true
 type: docs
-weight: 25
-slug: workflow
-menu:
-  docs:
-    parent: introduction
-    weight: 1
+slug: processing-flight
 ---
+
+
+
 
 <style>
 .timeline {

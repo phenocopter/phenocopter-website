@@ -24,20 +24,27 @@
 
 
 [[docs]]
-  name = "Introduction"
-  identifier = "introduction"
+  name = "Getting started"
+  identifier = "getting-started"
   weight = 1
-  url = "/docs/"
+  url = "/docs/getting-start/"
+
+  
+[[docs]]
+  name = "Managing flights"
+  identifier = "managing-flights"
+  weight = 2
+  url = "/docs/managing-flights/"
+
 
 [[docs]]
-  name = "Getting started"
-  identifier = "started"
-  weight = 10
-  url = ""
-
-
+  name = "Processing flight"
+  identifier = "processing-flight"
+  weight = 3
+  url = "/docs/processing-flight/"
+  
 [[docs]]
   name = "Deployment"
   identifier = "deployment"
-  weight = 20
+  weight = 4
   url = ""

@@ -7,7 +7,7 @@ weight: 20
 toc: true
 menu:
   docs:
-    parent: introduction
+    parent: managing-flights
     weight: 2
 ---
 

@@ -1,16 +1,10 @@
 ---
-title: "Meta management"
+title: "Managing flights"
 author: Bangyou Zheng
 date: 2020-07-15
-slug: meta
+slug: managing-flights
 weight: 20
-tags:
-  - meta
 toc: true
-menu:
-  docs:
-    parent: introduction
-    weight: 3
 ---
 
 

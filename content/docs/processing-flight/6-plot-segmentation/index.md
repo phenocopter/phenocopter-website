@@ -6,8 +6,8 @@ slug: plot-segmentation
 toc: true
 menu:
   docs:
-    parent: introduction
-    weight: 10
+    parent: processing-flight
+    weight: 6
 ---
 
 
@@ -41,7 +41,12 @@ A trial is defined as a group of plots. Here two methods are provided to generat
 ## Manually create boundary 
 
 ### Create a new boundary
-Define boundary of whole block through drawing a polygon in the four corners.
+
+The boundary method can be used if the experiment layout is a regular rectangle (i.e. quadrilateral in general). The boundary can be defined for whole block through drawing a polygon in the four corners.
+
+
+
+{{< figure src="new-boundary.png" title="Create a new boundary" width="50%" lightbox="true" numbered="true" >}}
 
 ### Edit a boundary
 
@@ -50,3 +55,17 @@ Methods to generate trials
 ### Create new plot
 
 ## Copy from other flights
+
+## Inject plots using RESTAPI
+
+
+## Edit plots
+
+
+{{% alert warning %}}
+There are no link between boundary and trials after new plots are created. Any editing of plots will be lost if new plots are created from boundary.
+{{% /alert %}}
+
+
+
+
