@@ -27,7 +27,7 @@
   name = "Getting started"
   identifier = "getting-started"
   weight = 1
-  url = "/docs/getting-start/"
+  url = "/docs/getting-started/"
 
   
 [[docs]]

@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Documentation
 date: 2020-07-15
 toc: true
 type: "docs"
