@@ -55,3 +55,10 @@ The **\<farm name\>**, **\<field name\>**,**\<flight date\>** and **\<flight nam
 
 The practical way is to organize your images in the folder structure, then contact system administrator to share your images with online storage or hard drive. 
 
+## Workflow
+The workflow **Upload Images** is automatically set as **Finish** status if all images are uploaded through web interface and when all images are uploaded. The next workflow **Extract image information** is also automatically triggered. 
+
+However, users have to manually click **Mark as Finish** in the workflow page to **Start** next workflow.
+
+
+
