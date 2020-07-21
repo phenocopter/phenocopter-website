@@ -47,4 +47,4 @@
   name = "Deployment"
   identifier = "deployment"
   weight = 4
-  url = ""
+  url = "/docs/deployment/"
