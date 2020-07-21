@@ -15,8 +15,6 @@ Segmentation of the ortho-mosaics into individual plots are key step to calculat
 
 
 
-
-
 ## Terminology
 
 ---
@@ -27,9 +25,13 @@ Segmentation of the ortho-mosaics into individual plots are key step to calculat
 
 **Boundary** is the outline of an experiment layout and can further segment into individual plots. A boundary is quadrilateral and defined by ***four*** corners. 
 
+**Row** and **Column** refer as the experiment layout and have the alternative names in some of experiment design tools (e.g. **Range** and **Plot**). 
+
+**Gap** in Row and Column is used if the layout has a big gap in the row and column. The unit of Gap is the ratio along the Row and Column. However, it will be better to keep the gaps to calculate the height with DSM. The **Trim** can be used the same purpose, but keep the gaps in the further analysis.
+
 **Plot** refers as the individual plot in a trial and is identified by **Row** and **Column** in the experiment layout.  
 
-**Row** and **Column** refer as the experiment layout and have the alternative names in some of experiment design tools (e.g. **Range** and **Plot**). 
+**Trim** is used to remove parts of plot in the further calculation depending on the functions. See workflow [extract phenotypic values]({{<ref "../7-extract-phenotype">}}) for more details. 
 
 ---
 
@@ -44,13 +46,72 @@ A trial is defined as a group of plots. Here two methods are provided to generat
 
 The boundary method can be used if the experiment layout is a regular rectangle (i.e. quadrilateral in general). The boundary can be defined for whole block through drawing a polygon in the four corners.
 
+Before drawing a boundary, you will need to determine
 
+* The starting corner of your experiment layout (**Row 1 and Column 1** in general)
+* The direction of Row and Column
+* The number of Rows and Columns
 
+Steps to create a new boundary
+
+1. Edit the information in the new boundary area and click **New Boundary** button. 
 {{< figure src="new-boundary.png" title="Create a new boundary" width="50%" lightbox="true" numbered="true" >}}
+
+2. A **blue cursor** is showing if mouse overs the map.
+3. Click the first point at the starting corner (**Row 1 and Column 1** in general)
+
+{{< figure src="boundary-1.png" title="Click the first/starting corner" width="50%" lightbox="true" numbered="true" >}}
+
+4. Click the second point along the **Column** side. 
+
+{{< figure src="boundary-2.png" title="Click the second corner" width="50%" lightbox="true" numbered="true" >}}
+
+5. Click the third point at the diagonal direction of the first point.
+
+{{< figure src="boundary-3.png" title="Click the third corner" width="50%" lightbox="true" numbered="true" >}}
+
+6. Click the forth/final point at the diagonal direction of the second point. The polygon will automatically close and segment the whole polygon according to parameters.
+
+{{< figure src="boundary-4.png" title="Click the forth/final corner" width="50%" lightbox="true" numbered="true" >}}
+
+7. Click **Save** button to save the polygon. 
 
 ### Edit a boundary
 
-Methods to generate trials
+After a new boundary is created, a boundary panel is added into Boundary tab. The boundary polygon is separated into the number or row and columns (Row + 1 and Column + 1 lines in two directions of polygon). No plot polygons are created in this step.
+
+Now you can 
+
+1. Edit the boundary name by clicking the title of panel. The boundary name has to be unique in each flight and only contain alphabet, number and underscore. 
+2. Edit the parameters in the input boxes. The layout will be automatically updated. 
+3. Adjust colors for the boundary and gaps. The new colors are saved into system and are retrieved when page reloads.
+4. Delete boundary from system. The created new plots are kept.
+5. Edit boundary. A **Blue cursor** is showing when mouse moves over corners. You can drag the corner and drop into a new place to update the boundary. Zoom into your ortho-mosaic provide more accurate position of corners. 
+
+{{< figure src="edit-boundary-1.png" title="Editing boundary" width="50%" lightbox="true" numbered="true" >}}
+
+6. Edit gaps. A **blue cursor** is showing when mouse moves over to intersection of lines. You can drag the intersection and drop to edit gaps. Be carefully to use this feature as you might get strange polygons for plots.
+
+{{< figure src="edit-gaps-1.png" title="Editing gaps" width="50%" lightbox="true" numbered="true" >}}
+
+7. Create new plots from boundary by clicking **New Plot** button. See next section for details.
+
+
+{{% alert note %}}
+The **Undo** and **Redo** at the top of map can be used during editing boundary and gaps.
+{{< figure src="map-buttons.png" title="Redo and unto buttons" width=30%" lightbox="true" numbered="true" >}}
+
+{{% /alert %}}
+
+
+
+{{% alert warning %}}
+**Edit boundary** will overwrite any changes of **edit gaps**. 
+{{% /alert %}}
+
+
+ 
+
 
 ### Create new plot
 
