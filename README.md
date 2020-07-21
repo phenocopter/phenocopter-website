@@ -1,5 +1,5 @@
 # PhenoCopterDoc
-Documentation for PhenoCopter platform
+Documentation for PhenoCopter platform. See live version from [here](https://phenocopter.bangyou.me/).
 
 
 ## Contribution 
