@@ -27,6 +27,7 @@ After a new flight is created, there are seven steps to process a flight from ra
 * Schedule
 * Processing
 * Finish
+* Finish 2
 
 {{< figure src="workflow.png" title="Workflow for a flight" numbered="true" lightbox="true" >}}
 
