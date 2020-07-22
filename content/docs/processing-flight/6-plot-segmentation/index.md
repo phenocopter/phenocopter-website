@@ -40,7 +40,7 @@ In each flight, multiple trials can be defined using methods below. The trial na
 A trial is defined as a group of plots. Here two methods are provided to generate a trial.
 
 
-## Manually create boundary 
+## Create new plots from boundary
 
 ### Create a new boundary
 
@@ -94,7 +94,7 @@ Now you can
 
 {{< figure src="edit-gaps-1.png" title="Editing gaps" width="50%" lightbox="true" numbered="true" >}}
 
-7. Create new plots from boundary by clicking **New Plot** button. See next section for details.
+7. Create new plots from boundary by clicking **New Plot** button. 
 
 
 {{% alert note %}}
@@ -104,18 +104,14 @@ The **Undo** and **Redo** at the top of map can be used during editing boundary 
 {{% /alert %}}
 
 
-
 {{% alert warning %}}
 **Edit boundary** will overwrite any changes of **edit gaps**. 
+
+There are no link between boundary and trials after new plots are created. Any editing of plots will be lost if new plots are created from same boundary.
 {{% /alert %}}
 
 
- 
-
-
-### Create new plot
-
-## Copy from other flights
+## Copy plots from other flights
 
 ## Inject plots using RESTAPI
 
@@ -123,9 +119,6 @@ The **Undo** and **Redo** at the top of map can be used during editing boundary 
 ## Edit plots
 
 
-{{% alert warning %}}
-There are no link between boundary and trials after new plots are created. Any editing of plots will be lost if new plots are created from boundary.
-{{% /alert %}}
 
 
 
