@@ -10,10 +10,7 @@ menu:
     weight: 6
 ---
 
-
 Segmentation of the ortho-mosaics into individual plots are key step to calculate phenotypic values for experiments in breeding and agriculture. The manual step requires users interactively create plots on the web interface or inject plots from RESTAPI. 
-
-
 
 ## Terminology
 
@@ -34,7 +31,6 @@ Segmentation of the ortho-mosaics into individual plots are key step to calculat
 **Trim** is used to remove parts of plot in the further calculation depending on the functions. See workflow [extract phenotypic values]({{<ref "../7-extract-phenotype">}}) for more details. 
 
 ---
-
 
 In each flight, multiple trials can be defined using methods below. The trial names have to be unique and only contain alphabet, number and underscore. The unique name is automatically generated when a trial is created. The name can be changed through clicking the title of each trial. There are no links between trials and methods to generate these trials.
 A trial is defined as a group of plots. Here two methods are provided to generate a trial.
@@ -112,6 +108,18 @@ There are no link between boundary and trials after new plots are created. Any e
 
 
 ## Copy plots from other flights
+
+If the [ground control points ]({{<ref "../../getting-started/gcp/">}}) are used in the same field (i.e. experiment in a season) and added into each flight, the plot segmentations can be copied from other flights.
+
+After switching to the **Flight** tab in the **Source** panel, the dropdown menu shows a list of flights which have the plot segmentation in the same field. 
+
+{{< figure src="copy-flight-list.png" title="List of flights with plot segmentation" width=50%" lightbox="true" numbered="true" >}}
+
+You can switch the flight to show the list of plot segmentation and update the map to show all plots. The check boxes at the left can be used to select the trials. Finally, the **Copy plots** button is used to copy the plots into this flight.
+
+{{< figure src="copy-flight-map.png" title="List of flights with plot segmentation" width=80%" lightbox="true" numbered="true" >}}
+
+
 
 ## Inject plots using RESTAPI
 
