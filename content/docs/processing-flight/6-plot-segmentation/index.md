@@ -123,11 +123,19 @@ You can switch the flight to show the list of plot segmentation and update the m
 
 ## Inject plots using RESTAPI
 
+If you have the plot segmentation in the geojson format, you can use the **RESTAPI** to POST your data into flight. See the API documentation for details.
 
 ## Edit plots
 
+In the trial panel, you can setup the trim in the row and column directions, change the color of plots and plots with trims, delete trial, and edit plots. 
+
+{{< figure src="trials-list.png" title="Trial panel in the list" width=50%" lightbox="true" numbered="true" >}}
+
+Plots can be edited in the **Trials** panel. The edit feature is implemented using [transform feature](https://viglino.github.io/ol-ext/examples/interaction/map.interaction.transform.html) in the [ol-ext](https://viglino.github.io/ol-ext/index.html) library to scale, translate, rotate and stretch the selected plots. See [ol-ext documentation](https://viglino.github.io/ol-ext/examples/interaction/map.interaction.transform.html) for details.
+
+After clicking the **Edit** button under each trial panel, you can select a single plot by mouse click on the map, then single row, single column and all plots through button at the top of map. The edit can be undo and redo using the buttons at the top of map.  
+
+{{< figure src="trials-edit-selection.png" title="Selection of plots to edit" width=100%" lightbox="true" numbered="true" >}}
 
 
-
-
-
+After editing, you can **Save** or **Cancel** all changes.
