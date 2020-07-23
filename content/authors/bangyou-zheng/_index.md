@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Data Scientist / Digital Agronomist
 
 # Organizations/Affiliations
 organizations:
 - name: CSIRO
-  url: ""
+  url: "https://www.csiro.au/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: a research scientist of digital agriculture at the CSIRO.
