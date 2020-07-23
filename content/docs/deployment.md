@@ -3,6 +3,8 @@ title: Deployment
 date: 2020-07-16
 toc: true
 type: docs
+authors:
+- bangyou-zheng
 slug: deployment
 ---
 

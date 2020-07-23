@@ -3,6 +3,8 @@ title: Processing flight in a workflow
 date: 2020-07-16
 toc: true
 type: docs
+authors:
+- bangyou-zheng
 slug: processing-flight
 ---
 

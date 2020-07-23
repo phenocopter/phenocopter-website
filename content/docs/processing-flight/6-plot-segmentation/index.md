@@ -4,6 +4,8 @@ author: Bangyou Zheng
 date: 2020-07-17
 slug: plot-segmentation
 toc: true
+authors:
+- bangyou-zheng
 menu:
   docs:
     parent: processing-flight
@@ -139,3 +141,10 @@ After clicking the **Edit** button under each trial panel, you can select a sing
 
 
 After editing, you can **Save** or **Cancel** all changes.
+
+
+## Workflow
+The workflow **Plot segmentation** has to been manually triggered when all plots are created. The individual plots are extracted from ortho-mosaics and vegetative index for the further analysis. The thumbnails can be viewed for each plot after workflow is finished through right clicking on the map.
+
+
+
