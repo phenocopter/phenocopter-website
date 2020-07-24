@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Expo"
-subtitle = "How we use UAV to catpture our field"
+subtitle = "How we use UAV to capture our field?"
 
 [content]
   # Page type to display. E.g. project.
@@ -24,11 +24,17 @@ subtitle = "How we use UAV to catpture our field"
   [[content.filter_button]]
     name = "All"
     tag = "*"
+   [[content.filter_button]]
+    name = "Visual"
+    tag = "Visual"
   
-
+  [[content.filter_button]]
+    name = "Multi-spectral"
+    tag = "Multi-spectral"
+  
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = 2
 
   # Toggle between the various page layout types.
   #   1 = List
