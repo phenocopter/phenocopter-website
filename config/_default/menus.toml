@@ -5,6 +5,11 @@
   weight = 1
 
 [[main]]
+  name = "Showcase"
+  url = "#expo"
+  weight = 3
+  
+[[main]]
   name = "Docs"
   url = "docs/"
   weight = 2
