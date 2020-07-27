@@ -11,3 +11,6 @@ menu:
     parent: getting-started
     weight: 2
 ---
+
+
+We recommend to use [mission planner](https://uavmissionplanner.netlify.app/) developed by Wei Guo and follow the link for [documentation](https://github.com/oceam/UAVPP/wiki/2.-Mission_Planner). 
