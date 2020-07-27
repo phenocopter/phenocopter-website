@@ -17,9 +17,7 @@ For minor changes like typos, you can click Edit this page, located at the botto
 
 For larger edits or new pages, you will want to setup a local environments. 
 
-* Clone the repo to local
-* Install R, RStudio and package blogdown
-* Open `phenocopter.Rproj` to edit files
-* Use `serve_site` function in `blogdown` to view changes in real time
-
-Following the [instruction](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to write markdown file. 
+* Clone the repo to local with `git` in command line or `sourcetree`.
+* Install R, RStudio and package blogdown.
+* Open `phenocopter.Rproj` to edit files. Following the [instruction](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to write markdown file. 
+* Use `serve_site` function in `blogdown` to view changes in real time.
