@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba66c169-bca4-4303-9518-2c2700d47cad/deploy-status)](https://app.netlify.com/sites/phenocopter/deploys)
+
+
 # PhenoCopterDoc
 Documentation for PhenoCopter platform. See live version from [here](https://phenocopter.bangyou.me/).
-
 
 ## Contribution 
 
