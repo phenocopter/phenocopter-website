@@ -24,6 +24,11 @@
   url = "#contact"
   weight = 60
 
+[[main_right]]
+  weight   = 1
+  name     = "<i class=\"fab fa-github\"></i>"
+  url      = "https://github.com/phenocopter/phenocopter-website"
+
 
 # Documentation
 
