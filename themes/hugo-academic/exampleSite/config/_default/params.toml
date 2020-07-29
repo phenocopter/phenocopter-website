@@ -156,6 +156,8 @@ reading_time = true
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
+docs_authors = false # Display authors for Docs layout
+
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 

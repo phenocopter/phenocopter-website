@@ -4,6 +4,8 @@ date: 2020-07-15
 toc: true
 type: docs
 weight: 25
+authors:
+- bangyou-zheng
 slug: getting-started
 ---
 

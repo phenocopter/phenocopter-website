@@ -5,6 +5,8 @@ date: 2020-07-15
 slug: camera
 weight: 20
 toc: true
+authors:
+- bangyou-zheng
 menu:
   docs:
     parent: managing-flights
