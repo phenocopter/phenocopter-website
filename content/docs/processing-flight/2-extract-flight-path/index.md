@@ -25,6 +25,12 @@ This workflow **Extract image information** does not require user inputs. This s
 
 Images without location information are ignored. The images in a single shutter (i.e.  the same location) are grouped together (e.g. multiply spectral camera). 
 
+
+{{% alert warning %}}
+The thermal camera (e.g. Flir Tau2) might capture multiple images in a second which have the same GPS location. These images are grouped to view them on the flight path.
+{{% /alert %}}
+
+
 ## View flight path
 
 The flight path is rendered on the map using [openlayers](https://openlayers.org/) with points for the image locations and line string which is colored by the flight elevation. The flight elevation also is available in the panel at the top right corner. Hovering mouse over the elevation figure shows a star on the map and value of flight height.

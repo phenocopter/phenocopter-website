@@ -13,15 +13,29 @@ menu:
     weight: 3
 ---
 
+The [ground control points ]({{<ref "../../getting-started/gcp/">}}) provide accurate survey of an field during growth season, and can be added into system through the web interface and used in the [stitching software]({{<ref "../4-stitch-mosaic">}}) after [flight path]({{<ref "../2-extract-flight-path">}}) is extracted. 
 
-Once the flight path has been extracted the next step is to mark the location of the GCPs in the images. 
-- Make sure the "View Flight Path" is enabled  under the Stitching menu. Click on the "Add GCPs" option to expand the menu.
+
+The **Flight path** and **Add GCPs** panels should be open in the left toolbar with the viewable flight path on the map. 
 
 {{< figure src="view-flight-path.png" title="View flight path" width="50%" lightbox="true" numbered="true" >}}
+
+
+
+## Find EPSG
+
+EPSG Geodetic Parameter Dataset (also EPSG registry) is a public registry of spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement. EPSG reference list can be found from [spatialreference](https://spatialreference.org/ref/epsg/).
+
+* If your GCPs are latitude and longitude, The EPSG might be `4326` for WGS84
+* If you use [AeroPoints](https://www.propelleraero.com/aeropoints/) as GCPs, you can download `CSV (Simple)` format from propeller website and find the EPSG in the section `Coordinate Systems`. 
+
+{{< figure src="epsg-aeropoints.png" title="Find EPSG from aeropoint website" width="100%" lightbox="true" numbered="true" >}}
+
 
 - Click on the "Select an EPSG" dropdown list to select and specify the EPSG Coordinate system to use.
 {{< figure src="update-epsg.png" title="Selection of EPSG" width="50%" lightbox="true" numbered="true" >}}
 
+## Import CSV file
 
 -   Upload a CSV containing the Coordinates of the GCPs with the following order of values
     - GCP ID
@@ -32,6 +46,8 @@ Once the flight path has been extracted the next step is to mark the location of
 
 
 {{< figure src="uploading-csv.png" title="Uploading CSV file" width="50%" lightbox="true" numbered="true" >}}
+
+## Add and delete GCPs on the raw image
 
 - Click on a image around the GCP to open the image, click on the "ADD a new point as GCP" button from the options list on top.
 
@@ -49,4 +65,8 @@ Once the flight path has been extracted the next step is to mark the location of
 
 {{< figure src="workflow.png" title="Mark workflow as finish" width="50%" lightbox="true" numbered="true" >}}
 
+
+## Workflow
+
+This workflow **Add GCPs** is a manual step and can be skip if the flight don't have any GCPs. This step has to be `Mark as Finish` when all GCPs are added.
 
