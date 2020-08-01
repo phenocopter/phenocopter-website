@@ -18,9 +18,6 @@ The [ground control points ]({{<ref "../../getting-started/gcp/">}}) provide acc
 
 The **Flight path** and **Add GCPs** panels should be open in the left toolbar with the viewable flight path on the map. 
 
-{{< figure src="view-flight-path.png" title="View flight path" width="50%" lightbox="true" numbered="true" >}}
-
-
 
 ## Add/Change EPSG
 
