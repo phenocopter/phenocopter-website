@@ -34,5 +34,6 @@ Five statuses are used to represent a workflow from wait to finish.
 
 ## Workflow notification and logs
 
+Email will send to all users with write permission on the flight when a workflow is finished and failed. A single email will send if there are multiple sub-tasks in each workflow (e.g. pyramid retile is running for each layer as a sub-task). User can disable email notification at the user setting. 
 
 
