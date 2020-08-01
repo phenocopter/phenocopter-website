@@ -41,20 +41,33 @@
 
   
 [[docs]]
-  name = "Managing flights"
+  name = "Management"
   identifier = "managing-flights"
   weight = 2
   url = "/docs/managing-flights/"
 
 
 [[docs]]
-  name = "Processing flight"
+  name = "Processing"
   identifier = "processing-flight"
   weight = 3
   url = "/docs/processing-flight/"
+
+[[docs]]
+  name = "Advanced"
+  identifier = "advanced-topic"
+  weight = 4
+  url = ""
+  
+
+[[docs]]
+  name = "Functions"
+  identifier = "phenotypic-function"
+  weight = 5
+  url = ""
   
 [[docs]]
   name = "Deployment"
   identifier = "deployment"
-  weight = 4
+  weight = 6
   url = "/docs/deployment/"

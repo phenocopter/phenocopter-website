@@ -1,5 +1,5 @@
 ---
-title: Processing flight in a workflow
+title: Processing Flight in a Workflow
 date: 2020-07-16
 toc: true
 type: docs

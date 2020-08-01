@@ -1,6 +1,5 @@
 ---
 title: "Managing flights"
-author: Bangyou Zheng
 date: 2020-07-15
 slug: managing-flights
 authors:
