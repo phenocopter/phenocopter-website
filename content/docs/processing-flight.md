@@ -23,28 +23,13 @@ After a new flight is created, there are seven steps to process a flight from ra
 
 ## Workflow status
 
-* Wait
-* Ready
-* Schedule
-* Processing
-* Finish
+Five statuses are used to represent a workflow from wait to finish. 
 
-
-
-| Type              | Company       | Model                      |
-| ----------------- |---------------| -------------------------- |
-| Visual            | DJI           | Phantom 4 Pro              |
-|                   |               | PHamtom 4                  |
-|                   |               | Zenmuse X3                 |
-|                   |               | Zenmuse X5                 |
-|                   |               | Mavic                      |
-| Multiple Spectral | MicaSense     | RedEdge                    |
-|                   |               | Sequoia                    |
-|                   |               | Altum                      |
-| Thermal           | Flir          | Tau2                       |
-|                   |               | TEAX ThermalCapture Fusion |
-|                   | DJI           | Zenmuse XT                 |
-|                   |               | Zenmuse XT 2               |
+* **Wait** for previous workflows to finish.
+* **Ready** to start to this workflow.
+* **Schedule** to run on the cluster.
+* **Processing** on the cluster.
+* **Finish** to process all required tasks.
 
 
 ## Workflow notification and logs
