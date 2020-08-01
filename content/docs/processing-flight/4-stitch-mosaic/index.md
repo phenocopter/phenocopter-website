@@ -14,17 +14,34 @@ menu:
 ---
 
 
-After finishing uploading the GCPs and marking them in images the next step is to is to start the stitching process for genrating the othomosaic. (make sure the GCP step is finished before proceeding)
+Raw images can be stitched into ortho-mosaics using commercial or open source software (e.g. [Pix4D](https://www.pix4d.com/), [PhotoScan](https://www.agisoft.com/) and [OpenDroneMap](https://www.opendronemap.org/)).  
 
-{{< figure src="finished-gcp.png" title="finished adding GCPs" width="50%" lightbox="true" numbered="true" >}}
+We current only implemented Pix4D into the workflow. You have to purchase your own license from Pix4D to use this step.
 
-- Click on the "Stitching for Ortho-mosaic" option to expand it, followed by clicking on the "Stitching Mosaic" option to exapnd and the set the configuration parameters for stitching the orthomosaic. 
--   Click on the drop down list for every stitching option and set the following configuration parameters 
-    - image_scale: Rapid
-    - calibration_method: Alternative
-    - internal_param_optimization: AllPrior
+{{% alert note %}}
+Alternatively, you can skip all previous steps and the stitch mosaic in the workflow through uploading your ortho-mosaic into PhenoCopter. No web interface is implemented as the constrain of internet bandwidth. You can contact system manager to upload your own ortho-mosaic. The same folder structure has to be kept to use further workflows.  
+{{% /alert %}}
 
-{{< figure src="stitching-options.png" title="Configuring stitching parameters" width="50%" lightbox="true" numbered="true" >}}
-- After configuring the stitching options select "start" to begin the stitching process for the ortho mosaic
 
-{{< figure src="start-stitching.png" title="Start Stitching" width="50%" lightbox="true" numbered="true" >}}
+This workflow only depends on the uploading of raw images. [Extract flight path]({{<ref "../2-extract-flight-path/">}}) and [Add GCPs]({{<ref "../3-add-gcps/">}}) can be skip if you don't need to check quality of raw images and have any GCPs. 
+
+
+## Stitch othor-mosaic using Pix4D
+
+The new project is generated for Pix4D using information in the workflow [Extract flight path]({{<ref "../2-extract-flight-path/">}}) (disabled images) and [Add GCPs]({{<ref "../3-add-gcps/">}}) (GCPs). 
+
+Three options in Pix4D professional version can be adjusted through web interface.
+
+{{< figure src="options.png" title="Configuring stitching parameters for Pix4D" width="100%" lightbox="true" numbered="true" >}}
+
+* image_scale: full, rapid
+* calibration_method: Standard, Alternative, GeolocationAndOrientation
+* internal_param_optimization: None, Leading, All, AllPrior
+
+The default parameters should be enough to stitch images in most of cases. Parameters can be adjusted if you notice any problems in the ortho-mosaic. 
+
+
+## Workflow
+
+Click the `Start` button in the workflow to trigger server to run stitching software. The next workflow [Pyramid retile]({{<ref "../5-pyramid-retile/">}}) will be automatically triggered when this step is finished. The quality report from stitching software is also available.
+
