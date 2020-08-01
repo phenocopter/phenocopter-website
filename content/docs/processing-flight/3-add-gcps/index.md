@@ -95,6 +95,13 @@ In Step 4 above, click the tool `Modify or delete GCP` at the top of map.
 
 {{< figure src="modify-delete-gcp.png" title="Modify or delete a GCP on raw image" width="50%" lightbox="true" numbered="true" >}}
 
+
+
+{{% alert warning %}}
+For multiple spectral camera, it is important to add GCPs to all bands in a single shutter. 
+{{% /alert %}}
+
+
 ## Workflow
 
 This workflow **Add GCPs** is a manual step and can be skip if the flight don't have any GCPs. This step has to be `Mark as Finish` when all GCPs are added.
