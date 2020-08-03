@@ -11,3 +11,11 @@ menu:
     parent: getting-started
     weight: 1
 ---
+
+The ground control points can provide accurate survey of an field during growth season.
+
+## Custom GCPs
+
+## Aeropoints
+
+[AeroPoints](https://www.propelleraero.com/aeropoints/) provide high-precision ground control points.
