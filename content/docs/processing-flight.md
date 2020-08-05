@@ -20,16 +20,17 @@ After a new flight is created, there are seven steps to process a flight from ra
 5. **[Generate pyramid retile]({{<ref "processing-flight/5-pyramid-retile">}})**: All ortho-mosaic and vegetative index are retiled for online visualization.
 6. **[Segment plots]({{<ref "processing-flight/6-plot-segmentation">}})**: Plots are created using drawing tools and copied from flights in the same field. The reverse calculation is used to segment undistorted images.
 7. **[Extract phenotypic values]({{<ref "processing-flight/7-extract-phenotype">}})**: Phenotypic values are extracted using pre-defined functions and applied for each vegetative index.
+8. **[Archive]({{<ref "processing-flight/8-archive">}})**: All flight data in the hard drive is archived into a `tar` file, transfered into long-term storage (e.g. tape) and deleted from the active storage to save space.
 
 ## Workflow status
 
 Five statuses are used to represent a workflow from wait to finish. 
 
-* **Wait** for previous workflows to finish.
-* **Ready** to start to this workflow.
-* **Schedule** to run on the cluster.
-* **Processing** on the cluster.
-* **Finish** to process all required tasks.
+1. **Wait** for previous workflows to finish.
+2. **Ready** to start to this workflow.
+3. **Schedule** to run on the cluster.
+4. **Processing** on the cluster.
+5. **Finish** to process all required tasks.
 
 
 ## Workflow notification and logs

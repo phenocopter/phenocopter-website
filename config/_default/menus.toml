@@ -65,9 +65,17 @@
   identifier = "phenotypic-function"
   weight = 5
   url = ""
+ 
+
+[[docs]]
+  name = "REST API"
+  identifier = "restapi"
+  weight = 6
+  url = ""
   
+ 
 [[docs]]
   name = "Deployment"
   identifier = "deployment"
-  weight = 6
+  weight = 7
   url = "/docs/deployment/"
