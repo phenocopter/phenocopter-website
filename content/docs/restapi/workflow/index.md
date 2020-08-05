@@ -16,7 +16,7 @@ menu:
 The status of workflow can be changed by RESTAPI. The R pcakge [PhenoCopterAPI](https://github.com/phenocopter/PhenoCopterAPI) is a wrapper of PhenoCopter API. 
 
 
-## Update the status for a field
+## Update the status for all flights in a field
 
 In the example below, we trigger the workflow to `archive` all flights in a field. See [workflow status]({{<ref "../../processing-flight">}}) for all status can be set, 
 
