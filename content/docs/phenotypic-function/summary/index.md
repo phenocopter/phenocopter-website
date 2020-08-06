@@ -1,5 +1,5 @@
 ---
-title: "Statistics Summary using predefined functions"
+title: "Statistics Summary"
 author: Bangyou Zheng
 date: 2020-07-31
 slug: summary
