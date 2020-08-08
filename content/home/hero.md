@@ -29,7 +29,16 @@ hero_media = "homepage.png"
 
   # Text color (true=light or false=dark).
   text_color_light = false
-
+[cta]
+  url = "./docs/getting-started/"
+  label = "Get Started"
+  icon_pack = "fas"
+  icon = "download"
+  
+[cta_alt]
+  url = "https://phenocopter.csiro.au"
+  label = "View Demo"
+  
 +++
 
 **The cloud-based platform to process and visualize images captured by UAV for breeding and agronomy**
