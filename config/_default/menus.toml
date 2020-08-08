@@ -19,11 +19,6 @@
   url = "https://phenocopter.csiro.au"
   weight = 10
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
-
 [[main_right]]
   weight   = 1
   name     = "<i class=\"fab fa-github\"></i>"
