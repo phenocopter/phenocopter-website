@@ -2,7 +2,7 @@
 title: Documentation
 date: 2020-07-15
 toc: true
-type: "docs"
+type: book
 authors:
 - bangyou-zheng
 ---

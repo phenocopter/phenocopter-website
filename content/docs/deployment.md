@@ -2,7 +2,7 @@
 title: Deployment
 date: 2020-07-16
 toc: true
-type: docs
+type: book
 authors:
 - bangyou-zheng
 slug: deployment

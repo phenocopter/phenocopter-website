@@ -2,7 +2,7 @@
 title: Processing Flight in a Workflow
 date: 2020-07-16
 toc: true
-type: docs
+type: book
 authors:
 - bangyou-zheng
 slug: processing-flight

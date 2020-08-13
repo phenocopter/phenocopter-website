@@ -2,7 +2,7 @@
 title: Getting start
 date: 2020-07-15
 toc: true
-type: docs
+type: book
 weight: 25
 authors:
 - bangyou-zheng

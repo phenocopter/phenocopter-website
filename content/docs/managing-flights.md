@@ -6,6 +6,7 @@ authors:
 - bangyou-zheng
 weight: 20
 toc: true
+type: book
 ---
 
 
