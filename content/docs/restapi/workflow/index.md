@@ -25,7 +25,7 @@ In the example below, we trigger the workflow to `archive` all flights in a fiel
 
 # Load package
 library(tidyverse)
-library(PhenoCopter)
+library(PhenoCopterAPI)
 
 # Login PhenoCopter
 pc_options(host = Sys.getenv('PC_HOST'),
